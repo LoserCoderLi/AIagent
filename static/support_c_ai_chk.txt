@@ -1,0 +1,19 @@
+```c
+#include <stdio.h>
+
+int main() {
+    int a = 10; // a is an integer
+    float b = 5.5; // b is a floating-point number
+
+    int c = 20; // c is an integer
+    float d = 18.2; // d is a floating-point number
+
+    float result1 = a + b; // Using a float variable for the result
+    float result2 = c + d; // Using a float variable for the result
+
+    printf("Result: %.2f\n", result1); // Using %.2f format specifier for float values
+    printf("Result: %.2f\n", result2); // Using %.2f format specifier for float values
+
+    return 0;
+}
+```

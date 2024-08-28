@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    int a = 10;
+    float b = 5.5;
+
+    int c = 20;
+    float d = 18.2;
+
+    int result1 = a + b;
+    int result2 = c + d;
+
+    printf("Result: %d\n", result1);
+    printf("Result: %d\n", result2);
+
+    return 0;
+}

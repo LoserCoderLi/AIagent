@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+    int a = 10;
+    float b = 5.5;
+
+    // 修正: 将操作数转换为相同类型
+    float result = a + b;  // 确保操作数为相同类型
+
+    printf("Result: %.2f\n", result);
+
+    return 0;
+}
